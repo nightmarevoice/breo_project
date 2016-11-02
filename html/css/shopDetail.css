@@ -1,0 +1,28 @@
+.clear:after{ display:block;content:"";height:0;clear:both;overflow:hidden;}
+.content{width:100%;background:#f0f0f0;padding-bottom:40px;}
+.bc{width:100%;background:#fff;}
+.tier{padding-top:5px;padding-bottom:20px;max-width: 1400px;min-width: 1000px;margin:0 auto 0;}
+.tier a{color:#6d6d6d;font-size: 16px;}
+.tier a:nth-child(3){color:#008cd6;}
+.tier a:nth-child(3):hover{text-decoration:underline;}
+/*体验店*/
+.shopdet{max-width: 1400px;min-width: 1000px;margin:0 auto 0;}
+.shopstor{width:100%;}
+.shopstor span{font-size: 25px;line-height: 85px;}
+.shopstor img{margin-left:20px;}
+.shopstor a{font-size: 16px;color:#666;margin-left:40px;}
+
+.shopadd{box-sizing:border-box;width:100%;padding:39px 59px;background:#fff;}
+.shopleft{width:43%;height:390px;float:left;}
+.shopleft p{margin-top:30px;font-size: 18px;color:#666;}
+.shopleft p:nth-child(2){font-size:22px;color:#333;}
+.shopleft p:nth-child(2) span{font-size: 16px;color: #666;font-weight: normal;padding-left: 20px;}
+.shopleft p:nth-child(3){font-size: 16px;color: #333;margin-top: 28px;}
+.shoplist{width:100%;overflow:hidden;padding-top:50px;}
+.shoplist .erm{width:18%;float:left;margin-right:15%;}
+.shoplist .erm img{width:100%;min-width: 100px;}
+.shoplist .erm p{text-align: center;margin-top:0px;min-width:100px;font-size: 16px;color:#666;}
+.shopright{width:43%;height:390px;float:right;}
+.shopright div .bigimg{width:100%;max-height: 309px;}
+.smallimg{width:160px;height:90px}
+.smallimg img{width:100%;}

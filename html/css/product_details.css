@@ -1,0 +1,33 @@
+/*public*/
+.clear:after{ display:block;
+        content:"";
+        height:0;
+        clear:both;
+        overflow:hidden;
+}
+/*内容*/
+.wrap{
+    max-width:1400px;
+    min-width:1000px;
+    margin:0 auto 0;
+    font-size:12px;
+}
+.wrap .wenzhi {width:100%;text-align:right;}
+.wenzhi a{color:#666;font-size:16px;}
+.cpTip{width:100%;font-size: 20px;font-weight: bold;color: #666;line-height: 60px;}
+.productMain{widht:100%;margin-top: 20px;}
+.proMainLeft{widht:23.57142%;float:left;}
+.proMainRight{width:72.57142%;float:right;}
+.proRightImg img{width:100%;display: block;}
+.proThrUl{width:100%;}
+.proThrUl li{width:33.1%;float:left;height: 71px;background: #666465;text-align: center;line-height: 71px;color: #fff;font-size: 18px;border-left: 1px solid #b8b7bb;cursor: pointer;}
+.pro_ideal{width:100%;}
+.pro_ideal img{width:100%;display:block;padding-top:35px;}
+.pro_deThr{width:100%;}
+.pro_deThr div{box-sizing: border-box;width:100%;margin:34px 0;padding-left:30px;height: 70px;background: #666465;line-height: 70px;color: #fff;font-size: 18px;}
+.pro_deThr img{width:100%;display: block;}
+.pro_buy{width:100%;border-bottom: 1px solid #d4d4d4;}
+.pro_buyImg{box-sizing: border-box;width:49.01554%;padding:20px 32px;float:left;}
+.pro_buyDetails{width:50%;float:right;}
+.pro_buyDetails h2{font-size: 38px;font-weight: normal;color: #333;}
+.pro_buyDetails p{color: #666;font-size: 16px;line-height: 32px;}

@@ -1,0 +1,21 @@
+.clear:after{ display:block;
+        content:"";
+        height:0;
+        clear:both;
+        overflow:hidden;
+}
+.wrap{max-width: 1400px;min-width:1000px;margin:0 auto 0;padding-top: 5px;}
+
+.video{width:31%;float:left;margin:0 1%;}
+.video:hover{box-shadow: 0 0 10px 1px #d9d9d9;}
+.video h2 {height: 20px;padding-top: 15px;margin-left: 12px;}
+.video h2 a:hover{color:#c00;}
+.video a{font-size:15px;color:#333;font-weight: normal;}
+.videoImg{width:96%;box-sizing: border-box;position:relative;margin:10px 2%;}
+.videoImg img{width:100%;}
+.videoA{position:absolute;width:100%;left:0;top:0;}
+.video span{padding-left:12px;padding-bottom:10px;display:block;
+    font-size: 13px;
+    color: #888;
+    font-family: Arial, Helvetica, sans-serif;
+  }

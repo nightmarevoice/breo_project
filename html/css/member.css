@@ -1,0 +1,45 @@
+/*public*/
+.clear:after{ display:block;content:"";height:0;clear:both;overflow:hidden;}
+/*........................................*/
+.header{height:60px;width:100%;background:#00a0ea;margin:0 auto;}
+.headerImg{width: 1000px;margin:0 auto 0;overflow:hidden;padding-left:}
+.headerLeft{float:left;overflow:hidden;}
+.headerLeft img{margin-left:20px;float:left;}
+.headerLeft span{display: block;float: right;padding-left: 24px;font-size: 24px;color: #fff;line-height: 60px;}
+.headerRight{float:right;}
+.logoregister{width: 1000px;margin: 0 auto;overflow: hidden;padding-top: 80px;margin-bottom: 50px;}
+.loregLeft{width:516px;float:left;margin:0 auto;margin:0 38px;}
+.loregLeft h1{font-weight: normal;font-size: 36px;color: #666;padding-top: 20px;}
+.loregLeft h1 span{color:#00a0ea;}
+.loregLeft p{font-size: 16px;color: #bfbfbf;line-height: 30px;}
+.loregborder{border-bottom:1px solid #d8d8d8;width:408px;margin:0 auto;}
+.words{line-height: 50px;font-size: 16px;color: #666;margin: 0 auto;width:408px;}
+.loregRight{float: left;width: 301px;height: 400px;border: 1px solid #d9d9d9;border-top: 2px solid #00a0ea;background-color: #f7f7f7;}
+.login_window{font-size: 18px;line-height: 40px;height: 40px;font-family: "Microsoft YaHei";color: #666;margin: 10px;}
+.loginmain{padding:0 20px;}
+#textaccount{width: 253px;height: 34px;border: 1px solid #d9d9d9;background-color: #fff;border-radius: 3px;margin-top: 16px;margin-bottom: 15px;outline: none;padding-left: 3px;font-family: "Microsoft YaHei";}
+.denglu{width: 260px;
+    height: 36px;
+    background-color: #00a0ea;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 36px;
+    margin-top: 10px;
+  }
+#buttonaccount{
+    background: none;
+    border: none;
+    width: 260px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 auto;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+  }
+.zhaohui{float:left;margin-top:15px;font-size:13px;color:#00a0ea;}
+.zhuce{float:right;margin-top:15px;font-size:13px;color:#00a0ea;}
+.hezuo{width:200px;margin-top:15px;color:#999;}
+.qx a{line-height: 30px;color:#666;}
+.qx a:hover{color:#c00;}

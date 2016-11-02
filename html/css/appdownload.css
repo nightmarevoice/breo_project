@@ -1,0 +1,7 @@
+body{background:#fff;}
+.content{max-width: 1400px;min-width: 1000px;padding-top:30px;margin:0 auto 0;height:660px;background:#f0f0f0;}
+.breoapp{background-color: #fff;padding: 20px 0;max-width: 520px;margin: 0 auto;border-radius: 5px;box-shadow: 1px 1px 6px rgba(0,0,0,.2);overflow: hidden;margin-bottom:20px;}
+.breoapp .ewm{margin-left:5%;width:50%;}
+.ai{float:right;width:180px;margin-right:6%;}
+.ai p{font-size: 16px;line-height: 36px;}
+.ai a{display: block;margin-top:15px;}

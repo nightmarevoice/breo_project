@@ -1,0 +1,38 @@
+.homeContent{max-width: 1400px;min-width: 1000px;margin:0 auto 0;}
+/*message部分*/
+.homeContent .message{width:100%;}
+.message ul{width:100%;overflow:hidden;padding-top:30px;}
+.message ul li{width:33%;float:left;}
+.message ul li:nth-child(2){margin:0 0.5%;}
+.proImg{width:100%;}
+.proImg a{width:100%;display: block;font-size: 0;}
+.proImg img{width:100%;}
+.proContent{width:100%;position:relative;}
+.prolabel{padding:25px 11px 0;box-sizing: border-box;font-size: 25px;color:#fff;width:75px;height:115px;position:absolute;top:-20px;background:url(../img/home/newpro5_03.jpg)}
+.pronews{font-size: 20px;background:url(../img/home/newpro4_03.jpg)no-repeat;padding:0px;text-align: center;}
+.pronewsWord{padding-right:60px;}
+.pronews span{font-size: 55px;display:block;text-align: center;padding-top:20px;}
+.pronews p{color:#fff;padding-top:10px;font-size: 15px;}
+.prohonor{background:url(../img/home/newpro6_03.jpg)no-repeat;}
+/*文字介绍*/
+.proWord{padding-left:90px;padding-top:14px;}
+.proWord a{font-size: 15px;line-height: 26px;color:#333;}
+.proWord a:hover{text-decoration: underline;}
+.proWord p{height:53px;font-size: 13px ;color:#666;}
+/*news*/
+#rolltu{width:100%;overflow:hidden;position:relative;height:250px;}
+#rolltu ul{width:100%;padding:0;position:absolute;}
+#rolltu li{width:100%;}
+#rolltu img{width:100%;height:250px;}
+/*news按钮*/
+.probutton{position:absolute;right:0;bottom:0;height:79px;width:40px;border-left:1px solid #ddd;}
+.probutton a:nth-child(1){margin-top:10px;margin-left:10px;width:21px;height:15px;display:block;background:url(../img/home/probut_03.jpg)no-repeat left top;}
+.probutton a:nth-child(2){margin-top:25px;margin-left:10px;width:21px;height:15px;display:block;background:url(../img/home/probut_03.jpg) 0 -30px no-repeat;}
+/*video部分*/
+.homeContent .video{width:100%;overlow:hidden;}
+.video ul{width:100%;overflow:hidden;padding-top:30px;}
+.video ul li{width:33%;float:left;}
+.video ul li a{width:100%;display:block;position:relative;}
+.video ul li:nth-child(2){margin:0 0.5%;}
+.video ul li a img{width:100%;}
+.videobc{position:absolute;width:100%;left:0;top:0;}

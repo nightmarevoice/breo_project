@@ -1,0 +1,43 @@
+body,p,ul,li,h1,h2,h3,h4,h5{margin:0;padding:0;font-size:12px;font-family: "Microsoft YaHei";color:#000;}
+body{width:100%;}
+a{text-decoration: none;}
+li{list-style: none;}
+nav{width: 100%;max-width: 1920px;height: 80px;margin: 20px auto;}
+#top{width: 100%;max-width: 1400px;min-width: 1000px;height: 80px;margin: 0 auto;position: relative;}
+#top .logo{width:226px;display:blocl;float:left;}
+#top .logo img{width:100%;margin-top: -20px;}
+.topUl{float:left;}
+.topUl li{float:left;position:relative;}
+.topUl li a:hover{color:#999;}
+.topUl li a{color:#333;display: block;padding: 0 24px;height: 80px;line-height: 80px;font-size: 16px;}
+#productpull{width: 178px;background-color:rgba(255, 255, 255, 0.85);position: absolute;left: 0;top: 75px;z-index: 999;display:none;}
+#productpull div{width: 118px;margin: 0 auto;border-bottom: 1px solid #e6e6e6;height: 39px;line-height: 39px;font-size: 13px;}
+#productpull a{width:100%;height:40px;padding:0;line-height: 40px;display:block;}
+#brandpull{width: 178px;background-color:rgba(255, 255, 255, 0.85);position: absolute;left: 0;top: 75px;z-index: 999;display:none;}
+#brandpull div{width: 118px;margin: 0 auto;border-bottom: 1px solid #e6e6e6;height: 39px;line-height: 39px;font-size: 13px;}
+#brandpull a{width:100%;height:40px;padding:0;line-height: 40px;}
+.topsearch{float:right;overflow:hidden;margin-right: 10px;}
+.topsearch .search,.topsearch p {float:left;line-height: 80px;font-size: 16px;color:#333;}
+.topsearch a{margin:0 12px;display: inline-block;color:#333;}
+
+
+
+footer{max-width: 1920px;height: 126px;margin: 40px auto 0;border-top: 1px solid #ededed}
+.footLine{width:100%;border-bottom: 1px solid #ededed;}
+.relate{max-width: 1400px;min-width:1000px; margin: 0 auto;overflow: hidden;}
+.relateLeft{float:left;width:429px;margin-left:20px;overflow: hidden;}
+.relateLeft li{float:left;height: 55px;line-height: 55px;font-size: 14px;}
+.relateLeft a{padding:0 8px;color:rgb(153,153,153);}
+.relateRight{float: right;overflow: hidden;}
+.relateRight ul{width:135px;float:left;}
+.relateRight ul li{float:left;margin-top:12px;margin-right:14px;}
+.relateRight a{display: inline-block;width:31px;height:31px}
+.relateRight li:nth-child(1){background:url(../img/home/follow-ico.png)no-repeat 0 -1px;}
+.relateRight li:nth-child(2){background:url(../img/home/follow-ico.png)no-repeat -45px -1px;}
+.relateRight li:nth-child(3){background:url(../img/home/follow-ico.png)no-repeat -202px -1px;}
+.relateRight p{float: left;font-size: 14px;color: #999;line-height: 55px;margin: 0 20px;}
+.record{max-width: 1400px;min-width:1000px; margin: 0 auto;overflow: hidden;padding-top:15px;}
+.recordLeft{float:left;}
+.recordLeft p{display: block;font-size: 13px;color: #999;margin-left: 20px;line-height: 20px;}
+.recordLeft a{font-size: 13px;color: #999;margin-left: 20px;line-height: 20px;}
+.recordImg{margin-left:20px;}

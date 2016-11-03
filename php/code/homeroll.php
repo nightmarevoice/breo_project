@@ -5,7 +5,7 @@ if($mysql->connect_errno){
   die(connect_errno);
 };
 $mysql->query("set names utf8");
-$sqlstr = "select * from homeroll where product_id between 1 and 6";
+$sqlstr = "select * from homeroll where product between 1 and 6";
 $result = $mysql->query($sqlstr);
 
 //将查询的数据放到数组中;

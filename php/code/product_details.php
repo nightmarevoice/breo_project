@@ -1,11 +1,11 @@
 <?php
-
+$getId = $_GET["product_id"];
 $mysql = new mysqli("localhost","root","","breo_project");
 if($mysql->connect_errno){
   die(connect_errno);
 };
 $mysql->query("set names utf8");
-$sqlstr = "select * from product_details where product_id = \"1\"";
+$sqlstr = "select * from product_details where product_id = \"{$getId}\"";
 $result = $mysql->query($sqlstr);
 
 //将查询的数据放到数组中;

@@ -11,7 +11,7 @@ function(){
         url:"../../php/code/homeroll.php",
     },function(str){
         var obj = JSON.parse(str);
-        arr = obj;
+        arr = obj
         createUL(arr);
     })
     function createUL(arr){
@@ -42,11 +42,11 @@ function(){
             });
             var a = $("<a/>");
             li.append(a);
-            a.attr("href","")
+            a.attr("href","product_details.html?product_id="+arr[i].product_id+"&product_classifid="+arr[i].product_classifid);
             var img = $("<img/>");
             a.append(img);
             img.addClass("myImg");
-            img.attr("src","../img/home/"+arr[arr.length-1-i].product_img);
+            img.attr("src","../img/home/"+arr[i].product_img);
             // 生成round
             var roundli = $("<li/>");
             roundul.append(roundli);

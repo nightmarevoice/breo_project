@@ -17,3 +17,8 @@ li{list-style: none;}
 .newsDec a {display:block;line-height: 29px;width:850px;float:left;font-size: 20px;color:#333;}
 .newsDec span{float:right;display: block;font-size: 13px;font-weight: normal;color: #666;}
 .newsDec p{line-height: 22px;font-size: 13px;color: #666;margin:10px 0 0 0;}
+.fenye{padding-top:50px;max-width: 1400px;min-width: 1000px;height:52px;margin:0 auto 0;}
+.fenye ul{margin:0 auto 0;overflow:hidden;width:300px;}
+.fenye ul li{box-sizing: border-box;font-size:12px;float:left;margin-right:5px;border:1px solid #ccc;}
+.fenye ul li a{display:block;padding:6px 10px;color:#666;}
+.fenye ul li a:hover{background:#00a0e9;color:#fff;cursor:pointer;}

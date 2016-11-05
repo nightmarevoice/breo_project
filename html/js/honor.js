@@ -3,15 +3,10 @@ var honorModule = (
     requestAjax({
       url:"../../php/code/honor.php"
     },function(str){
-      var obj = JSON.parse(str)
-      var array = [];
-      for(var j = obj.length -1; j > -1;j--){
-        array.push(obj[j]);
-      }
-        console.log(array);
-         test(array);
+      var obj = JSON.parse(str);
+      addData(obj);
     });
-    function test(obj){
+    function addData(obj){
       var honorList = $(".honorList");
       var ul = $("<ul/>");
       honorList.append(ul);

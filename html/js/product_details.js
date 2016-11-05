@@ -18,14 +18,22 @@ var product_detailsModule = (
             var li = $("<li/>");
             ul.append(li);
             li[0].innerHTML = arr;
-            // 添加data
+            li.addClass("myli");
+            li[0].data = obj[i];
             li.find("img").attr("src","../img/product_details/small/"+obj[i].product_imgleft1);
             li.find("span").text(obj[i].product_name);
             li.find(".productName").text(obj[i].product_name);
-            li.children(".productImg").find("a").attr("href","product_details.html?product_id="+obj[i].product_id+"&product_classifid="+obj[i].product_classifid);  
+            li.children(".productImg").find("a").attr("href","product_details.html?product_id="+obj[i].product_id+"&product_classifid="+obj[i].product_classifid);
         };
+
         // 左边的动画效果
 
+        $(".myli").each(function(){
+            if($(this)[0].data.product_id == getvl("product_id")){
+                $(this).find(".productImg").show();
+                $(this).find(".productName").hide();
+            }
+        })
         $(".productName").click(function() {
             $(this).prev().slideDown();
             $(this).parent().siblings().children(".productImg").slideUp();
